@@ -3,13 +3,15 @@ name = "proyect-nlp-deep-imdb"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "counter>=1.0.0",
     "matplotlib>=3.10.8",
     "numpy>=2.4.4",
     "pandas>=3.0.2",
+    "pip>=26.0.1",
     "regex>=2026.4.4",
+    "spacy>=3.8.13",
     "torch>=2.11.0",
     "tqdm>=4.67.3",
 ]

@@ -51,4 +51,3 @@ def create_embedding_matrix(word2idx, w2v_model, embedding_dim=100):
     embedding_matrix[word2idx['<PAD>']] = np.zeros(embedding_dim)
 
     return embedding_matrix
-

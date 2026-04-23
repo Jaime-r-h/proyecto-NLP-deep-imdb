@@ -7,11 +7,9 @@ import spacy
 import os
 import pandas as pd
 
-try:
-    # nlp = spacy.load("en_core_web_trf")
-    nlp = spacy.load("en_core_web_sm")
-except:
-    raise RuntimeError("Run: python -m spacy download en_core_web_sm")
+# nlp = spacy.load("en_core_web_trf")
+nlp = spacy.load("en_core_web_trf")
+
 
 def get_entities(text):
     doc = nlp(text)

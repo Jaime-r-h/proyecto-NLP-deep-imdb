@@ -9,12 +9,13 @@ Combina un modelo **NER** (BiLSTM), un clasificador de **sentimiento** (Naive Ba
 
 > Requiere **Python 3.10+**. Se recomienda usar un entorno virtual.
 
-# Instalar dependencias
+## Instalar dependencias
 
+```bash
 pip install -r requirements.txt
 ```
 
-# Descargar datos
+## Descargar datos
 
 Los datos para entrenar el SA (imdb.csv) ya están en la carpeta /data.
 

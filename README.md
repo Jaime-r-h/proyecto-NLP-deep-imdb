@@ -56,6 +56,7 @@ El sistema arranca y pide:
 1. **Título** del artículo o película.
 2. **Texto** (review o artículo), línea a línea. Escribe `FIN` para terminar el texto.
 
+Es importante que la review se escriba en inglés. Hay varios ejemplos de reviews en el paper por si las quereis utilizar.
 Después de esto te da el valor de NER y sentiment y la alerta generada.
 
 ### Re-entrenar SA y NER antes de arrancar el pipeline
